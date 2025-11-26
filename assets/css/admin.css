@@ -1,0 +1,54 @@
+.utm-domains-list,
+.utm-params-list {
+    margin-bottom: 10px;
+}
+
+.utm-domain-row,
+.utm-param-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.utm-domain-row input,
+.utm-param-row input {
+    flex: 1;
+    max-width: 400px;
+}
+
+.utm-remove-row {
+    flex-shrink: 0;
+}
+
+#utm-domains-wrapper,
+#utm-params-wrapper {
+    background: #f0f0f1;
+    padding: 15px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#utm-domains-wrapper h2,
+#utm-params-wrapper h2 {
+    margin-top: 0;
+}
+
+.utm-add-domain,
+.utm-add-param {
+    margin-top: 10px;
+}
+
+#utm-settings-notice {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#utm-settings-notice.notice-success {
+    border-left-color: #00a32a;
+}
+
+#utm-settings-notice.notice-error {
+    border-left-color: #d63638;
+}
