@@ -1,10 +1,11 @@
 <?php
 /**
  * Plugin Name: UTM Persistence
- * Plugin URI: https://sqrdmedia.com/plugins
- * Description: Persists UTM and tracking parameters across domains during a session
+ * Plugin URI: https://plugins.joeljenkins.me
+ * Description: Automatically persists UTM and marketing tracking parameters across page loads and domains. When visitors land on your site with UTM parameters, this plugin ensures those parameters follow them throughout their session, keeping your marketing attribution intact.
  * Version: 1.0.0
- * Author: Joel Jenkins
+ * Author: Kinda Useful Plugins
+ * Author URI: https://plugins.joeljenkins.me
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
@@ -21,6 +22,14 @@ define('UTM_PERSISTENCE_PLUGIN_URL', plugin_dir_url(__FILE__));
 
 // Include required files
 require_once UTM_PERSISTENCE_PLUGIN_DIR . 'includes/class-utm-persistence-admin.php';
+
+// Auto-updates from Kinda Useful Plugins
+require_once UTM_PERSISTENCE_PLUGIN_DIR . 'includes/class-plugin-updater.php';
+new Kinda_Useful_Plugin_Updater(
+    'https://plugins.joeljenkins.me',
+    __FILE__,
+    'utm-persistence'
+);
 
 class UTM_Persistence {
     

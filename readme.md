@@ -1,5 +1,11 @@
+# Site Index
+
+Automatically persists UTM and marketing tracking parameters across page loads and domains. When visitors land on your site with UTM parameters, this plugin ensures those parameters follow them throughout their session, keeping your marketing attribution intact.
+
+---
+
 === UTM Persistence ===
-Contributors: Joel Jenkins
+Contributors: Kinda Useful Plugins
 Tags: utm, tracking, analytics, marketing, parameters
 Requires at least: 5.0
 Tested up to: 6.4
@@ -15,13 +21,15 @@ Persists UTM and tracking parameters across domains during a user session.
 UTM Persistence helps maintain marketing tracking parameters (UTM parameters) and other tracking codes across page loads and domains. When a user lands on your site with UTM parameters, this plugin ensures those parameters are appended to specified domain links throughout their session.
 
 Features:
+
 * Configure multiple domains to track
 * Specify custom tracking parameters beyond standard UTM codes
 * Easy-to-use admin interface
 * Lightweight and performance optimized
-* Works with dynamic content
+* Works with dynamic content via MutationObserver
 
 Default tracking parameters include:
+
 * utm_source
 * utm_medium
 * utm_campaign
@@ -43,6 +51,7 @@ Default tracking parameters include:
 == Configuration ==
 
 After activation:
+
 1. Go to Settings > UTM Persistence
 2. Add domains you want to decorate with UTM parameters
 3. Add or remove tracking parameters as needed
@@ -66,3 +75,9 @@ No, the JavaScript is lightweight and only runs on the frontend when configured 
 
 = 1.0.0 =
 * Initial release
+
+== License ==
+
+This plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+
+This plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
