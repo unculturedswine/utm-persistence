@@ -8,8 +8,8 @@ Automatically persists UTM and marketing tracking parameters across page loads a
 Contributors: Kinda Useful Plugins
 Tags: utm, tracking, analytics, marketing, parameters
 Requires at least: 5.0
-Tested up to: 6.4
-Stable tag: 1.0.0
+Tested up to: 6.7
+Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -72,6 +72,10 @@ Yes, you can add any query parameter you want to track through the admin interfa
 No, the JavaScript is lightweight and only runs on the frontend when configured domains are present.
 
 == Changelog ==
+
+= 1.0.1 =
+* Updated WordPress tested version to 6.7
+* Auto-update support
 
 = 1.0.0 =
 * Initial release

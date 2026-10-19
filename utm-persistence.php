@@ -3,7 +3,7 @@
  * Plugin Name: UTM Persistence
  * Plugin URI: https://plugins.joeljenkins.me
  * Description: Automatically persists UTM and marketing tracking parameters across page loads and domains. When visitors land on your site with UTM parameters, this plugin ensures those parameters follow them throughout their session, keeping your marketing attribution intact.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Kinda Useful Plugins
  * Author URI: https://plugins.joeljenkins.me
  * Requires at least: 5.0
@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('UTM_PERSISTENCE_VERSION', '1.0.0');
+define('UTM_PERSISTENCE_VERSION', '1.0.1');
 define('UTM_PERSISTENCE_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('UTM_PERSISTENCE_PLUGIN_URL', plugin_dir_url(__FILE__));
 
